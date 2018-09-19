@@ -222,7 +222,7 @@ var searchFormConfig = {
         var e = d.val();
         b.slideDown(500, "easeOutBounce").html("Loading...");
         c.ajax({
-            url: "https://codexreloadedgames.blogspot.com//feeds/posts/summary?alt=json-in-script&q=" + e + "&max-results=9999",
+            url: "//codexreloadedgames.blogspot.com//feeds/posts/summary?alt=json-in-script&q=" + e + "&max-results=9999",
             type: "get",
             dataType: "jsonp",
             success: function (q) {
